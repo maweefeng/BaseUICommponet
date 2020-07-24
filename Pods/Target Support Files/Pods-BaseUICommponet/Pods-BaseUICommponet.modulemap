@@ -1,0 +1,6 @@
+framework module Pods_BaseUICommponet {
+  umbrella header "Pods-BaseUICommponet-umbrella.h"
+
+  export *
+  module * { export * }
+}
