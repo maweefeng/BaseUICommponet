@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XMGBaseUICommonet"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "为了用户体验，自己封装了一些UIKit工具库方便使用"
 
   # This description is used to generate tags and improve search results.
@@ -25,8 +25,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "为了用户体验，自己封装了一些UIKit工具库方便使用,为了用户体验，自己封装了一些UIKit工具库方便使用为了用户体验，自己封装了一些UIKit工具库方便使用"
 
   spec.homepage     = "https://github.com/maweefeng/BaseUICommponet"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -65,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/maweefeng/BaseUICommponet.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/maweefeng/BaseUICommponet.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,8 +137,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-   spec.dependency  = 'SnapKit','~> 5.0.1'
-   spec.dependency  = 'pop',~> 1.0.12''
+   spec.dependency  'SnapKit','~> 5.0.1'
+   spec.dependency  'pop','~> 1.0.12'
 
 
 
