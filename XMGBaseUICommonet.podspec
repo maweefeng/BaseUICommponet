@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XMGBaseUICommonet"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "为了用户体验，自己封装了一些UIKit工具库方便使用"
 
   # This description is used to generate tags and improve search results.
@@ -90,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "BaseUICommponet/Classes"
+  spec.exclude_files = "BaseUICommponet/Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

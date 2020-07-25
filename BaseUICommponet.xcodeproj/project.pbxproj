@@ -78,6 +78,8 @@
 		7EA7C28224CAC99C0006FFC2 /* BaseUICommponet */ = {
 			isa = PBXGroup;
 			children = (
+				7EA7C2A324CB26C00006FFC2 /* Resources */,
+				7EA7C2A224CB26AF0006FFC2 /* Exclude */,
 				7EA7C2A124CAD9F90006FFC2 /* Classes */,
 				7EA7C28324CAC99C0006FFC2 /* AppDelegate.swift */,
 				7EA7C28524CAC99C0006FFC2 /* SceneDelegate.swift */,
@@ -100,6 +102,20 @@
 				7EA7C29E24CACD380006FFC2 /* UIControl+FeedBack.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		7EA7C2A224CB26AF0006FFC2 /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exclude;
+			sourceTree = "<group>";
+		};
+		7EA7C2A324CB26C00006FFC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CE261ADA63BB0EC873A4D8DF /* Pods */ = {
