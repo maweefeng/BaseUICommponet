@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7BBAA724D003C100B91C8C /* XMGBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAA624D003C100B91C8C /* XMGBaseWebViewController.swift */; };
+		7E7BBAA924D0040F00B91C8C /* XMGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAA824D0040F00B91C8C /* XMGBaseViewController.swift */; };
+		7E7BBAC424D007E600B91C8C /* UIView+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAAF24D007E400B91C8C /* UIView+ViewController.swift */; };
+		7E7BBAC524D007E600B91C8C /* WKWebview+LoadHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB024D007E400B91C8C /* WKWebview+LoadHtml.swift */; };
+		7E7BBAC624D007E600B91C8C /* UIViewController+Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB124D007E500B91C8C /* UIViewController+Subview.swift */; };
+		7E7BBAC724D007E600B91C8C /* NSLayoutConstraint+Mutiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB224D007E500B91C8C /* NSLayoutConstraint+Mutiper.swift */; };
+		7E7BBAC824D007E600B91C8C /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB324D007E500B91C8C /* UIButton+Ext.swift */; };
+		7E7BBAC924D007E600B91C8C /* UILable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB424D007E500B91C8C /* UILable+Ext.swift */; };
+		7E7BBACA24D007E600B91C8C /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB524D007E500B91C8C /* UICollectionView+Ext.swift */; };
+		7E7BBACB24D007E600B91C8C /* UITableView+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB624D007E500B91C8C /* UITableView+EXT.swift */; };
+		7E7BBACC24D007E600B91C8C /* UIView+PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB724D007E500B91C8C /* UIView+PlayView.swift */; };
+		7E7BBACD24D007E600B91C8C /* UINib+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB824D007E500B91C8C /* UINib+Loader.swift */; };
+		7E7BBACE24D007E600B91C8C /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAB924D007E500B91C8C /* NSObject+ClassName.swift */; };
+		7E7BBACF24D007E600B91C8C /* TimeInterval+VideoDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBABA24D007E500B91C8C /* TimeInterval+VideoDate.swift */; };
+		7E7BBAD024D007E600B91C8C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBABB24D007E600B91C8C /* String+Ext.swift */; };
+		7E7BBAD124D007E600B91C8C /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBABC24D007E600B91C8C /* UIImageView+URL.swift */; };
+		7E7BBAD224D007E600B91C8C /* UILable+DeleteLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBABD24D007E600B91C8C /* UILable+DeleteLine.swift */; };
+		7E7BBAD424D007E600B91C8C /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBABF24D007E600B91C8C /* NSTimer+Closure.swift */; };
+		7E7BBAD524D007E600B91C8C /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAC024D007E600B91C8C /* UIView+Frame.swift */; };
+		7E7BBAD624D007E600B91C8C /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAC124D007E600B91C8C /* UIColor+Theme.swift */; };
+		7E7BBAD724D007E600B91C8C /* UIScrollView+MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAC224D007E600B91C8C /* UIScrollView+MJRefresh.swift */; };
+		7E7BBAD824D007E600B91C8C /* UIViewController+DdkAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAC324D007E600B91C8C /* UIViewController+DdkAlert.swift */; };
+		7E7BBADC24D0080100B91C8C /* CALayer+XMGXibBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAD924D0080000B91C8C /* CALayer+XMGXibBorderColor.m */; };
+		7E7BBADD24D0080100B91C8C /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBADB24D0080000B91C8C /* Date+String.swift */; };
+		7E7BBAE024D00C5B00B91C8C /* CNMacroSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBADF24D00C5B00B91C8C /* CNMacroSwift.swift */; };
+		7E7BBAE324D00D8E00B91C8C /* tupian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BBAE124D00D8E00B91C8C /* tupian@2x.png */; };
+		7E7BBAE424D00D8E00B91C8C /* tupian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BBAE224D00D8E00B91C8C /* tupian@3x.png */; };
 		7EA7C28424CAC99C0006FFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7C28324CAC99C0006FFC2 /* AppDelegate.swift */; };
 		7EA7C28624CAC99C0006FFC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7C28524CAC99C0006FFC2 /* SceneDelegate.swift */; };
 		7EA7C28824CAC99C0006FFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7C28724CAC99C0006FFC2 /* ViewController.swift */; };
@@ -21,6 +48,34 @@
 /* Begin PBXFileReference section */
 		3B3560A48F79BA680A59B707 /* Pods-BaseUICommponet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUICommponet.debug.xcconfig"; path = "Target Support Files/Pods-BaseUICommponet/Pods-BaseUICommponet.debug.xcconfig"; sourceTree = "<group>"; };
 		7702DACFFDC2760BB26CAD9F /* Pods_BaseUICommponet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUICommponet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7BBAA624D003C100B91C8C /* XMGBaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMGBaseWebViewController.swift; sourceTree = "<group>"; };
+		7E7BBAA824D0040F00B91C8C /* XMGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMGBaseViewController.swift; sourceTree = "<group>"; };
+		7E7BBAAF24D007E400B91C8C /* UIView+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ViewController.swift"; sourceTree = "<group>"; };
+		7E7BBAB024D007E400B91C8C /* WKWebview+LoadHtml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKWebview+LoadHtml.swift"; sourceTree = "<group>"; };
+		7E7BBAB124D007E500B91C8C /* UIViewController+Subview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Subview.swift"; sourceTree = "<group>"; };
+		7E7BBAB224D007E500B91C8C /* NSLayoutConstraint+Mutiper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Mutiper.swift"; sourceTree = "<group>"; };
+		7E7BBAB324D007E500B91C8C /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		7E7BBAB424D007E500B91C8C /* UILable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+Ext.swift"; sourceTree = "<group>"; };
+		7E7BBAB524D007E500B91C8C /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		7E7BBAB624D007E500B91C8C /* UITableView+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+EXT.swift"; sourceTree = "<group>"; };
+		7E7BBAB724D007E500B91C8C /* UIView+PlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PlayView.swift"; sourceTree = "<group>"; };
+		7E7BBAB824D007E500B91C8C /* UINib+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Loader.swift"; sourceTree = "<group>"; };
+		7E7BBAB924D007E500B91C8C /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		7E7BBABA24D007E500B91C8C /* TimeInterval+VideoDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+VideoDate.swift"; sourceTree = "<group>"; };
+		7E7BBABB24D007E600B91C8C /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		7E7BBABC24D007E600B91C8C /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
+		7E7BBABD24D007E600B91C8C /* UILable+DeleteLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+DeleteLine.swift"; sourceTree = "<group>"; };
+		7E7BBABF24D007E600B91C8C /* NSTimer+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Closure.swift"; sourceTree = "<group>"; };
+		7E7BBAC024D007E600B91C8C /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		7E7BBAC124D007E600B91C8C /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		7E7BBAC224D007E600B91C8C /* UIScrollView+MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+MJRefresh.swift"; sourceTree = "<group>"; };
+		7E7BBAC324D007E600B91C8C /* UIViewController+DdkAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+DdkAlert.swift"; sourceTree = "<group>"; };
+		7E7BBAD924D0080000B91C8C /* CALayer+XMGXibBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XMGXibBorderColor.m"; sourceTree = "<group>"; };
+		7E7BBADA24D0080000B91C8C /* CALayer+XMGXibBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XMGXibBorderColor.h"; sourceTree = "<group>"; };
+		7E7BBADB24D0080000B91C8C /* Date+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		7E7BBADF24D00C5B00B91C8C /* CNMacroSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNMacroSwift.swift; sourceTree = "<group>"; };
+		7E7BBAE124D00D8E00B91C8C /* tupian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tupian@2x.png"; sourceTree = "<group>"; };
+		7E7BBAE224D00D8E00B91C8C /* tupian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tupian@3x.png"; sourceTree = "<group>"; };
 		7EA7C28024CAC99C0006FFC2 /* BaseUICommponet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseUICommponet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA7C28324CAC99C0006FFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA7C28524CAC99C0006FFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +110,68 @@
 				7702DACFFDC2760BB26CAD9F /* Pods_BaseUICommponet.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7BBAA524D0032600B91C8C /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBAAC24D006AB00B91C8C /* BaseController */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		7E7BBAAC24D006AB00B91C8C /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBAA824D0040F00B91C8C /* XMGBaseViewController.swift */,
+				7E7BBAAD24D006BA00B91C8C /* Web */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		7E7BBAAD24D006BA00B91C8C /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBAA624D003C100B91C8C /* XMGBaseWebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		7E7BBAAE24D006E100B91C8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBADB24D0080000B91C8C /* Date+String.swift */,
+				7E7BBAB224D007E500B91C8C /* NSLayoutConstraint+Mutiper.swift */,
+				7E7BBAB924D007E500B91C8C /* NSObject+ClassName.swift */,
+				7E7BBABF24D007E600B91C8C /* NSTimer+Closure.swift */,
+				7E7BBABB24D007E600B91C8C /* String+Ext.swift */,
+				7E7BBABA24D007E500B91C8C /* TimeInterval+VideoDate.swift */,
+				7E7BBAB324D007E500B91C8C /* UIButton+Ext.swift */,
+				7E7BBAB524D007E500B91C8C /* UICollectionView+Ext.swift */,
+				7E7BBAC124D007E600B91C8C /* UIColor+Theme.swift */,
+				7E7BBABC24D007E600B91C8C /* UIImageView+URL.swift */,
+				7E7BBABD24D007E600B91C8C /* UILable+DeleteLine.swift */,
+				7E7BBAB424D007E500B91C8C /* UILable+Ext.swift */,
+				7E7BBAB824D007E500B91C8C /* UINib+Loader.swift */,
+				7E7BBAC224D007E600B91C8C /* UIScrollView+MJRefresh.swift */,
+				7E7BBAB624D007E500B91C8C /* UITableView+EXT.swift */,
+				7E7BBAC024D007E600B91C8C /* UIView+Frame.swift */,
+				7E7BBAB724D007E500B91C8C /* UIView+PlayView.swift */,
+				7E7BBAAF24D007E400B91C8C /* UIView+ViewController.swift */,
+				7E7BBAC324D007E600B91C8C /* UIViewController+DdkAlert.swift */,
+				7E7BBAB124D007E500B91C8C /* UIViewController+Subview.swift */,
+				7E7BBAB024D007E400B91C8C /* WKWebview+LoadHtml.swift */,
+				7EA7C29724CAC9E50006FFC2 /* UIView+Reddot.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7E7BBADE24D00C5100B91C8C /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBADF24D00C5B00B91C8C /* CNMacroSwift.swift */,
+			);
+			path = Marco;
 			sourceTree = "<group>";
 		};
 		7EA7C27724CAC99C0006FFC2 = {
@@ -97,9 +214,10 @@
 		7EA7C2A124CAD9F90006FFC2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EA7C29724CAC9E50006FFC2 /* UIView+Reddot.swift */,
-				7EA7C29D24CACD380006FFC2 /* UIControl+FeedBack.h */,
-				7EA7C29E24CACD380006FFC2 /* UIControl+FeedBack.m */,
+				7E7BBADE24D00C5100B91C8C /* Marco */,
+				7E7BBAAE24D006E100B91C8C /* Extension */,
+				7E7BBAA524D0032600B91C8C /* BaseUI */,
+				7EA7C2C624CEDCA30006FFC2 /* Categoty */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,8 +232,21 @@
 		7EA7C2A324CB26C00006FFC2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7E7BBAE124D00D8E00B91C8C /* tupian@2x.png */,
+				7E7BBAE224D00D8E00B91C8C /* tupian@3x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7EA7C2C624CEDCA30006FFC2 /* Categoty */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BBADA24D0080000B91C8C /* CALayer+XMGXibBorderColor.h */,
+				7E7BBAD924D0080000B91C8C /* CALayer+XMGXibBorderColor.m */,
+				7EA7C29D24CACD380006FFC2 /* UIControl+FeedBack.h */,
+				7EA7C29E24CACD380006FFC2 /* UIControl+FeedBack.m */,
+			);
+			path = Categoty;
 			sourceTree = "<group>";
 		};
 		CE261ADA63BB0EC873A4D8DF /* Pods */ = {
@@ -191,6 +322,8 @@
 				7EA7C29024CAC99F0006FFC2 /* LaunchScreen.storyboard in Resources */,
 				7EA7C28D24CAC99F0006FFC2 /* Assets.xcassets in Resources */,
 				7EA7C28B24CAC99C0006FFC2 /* Main.storyboard in Resources */,
+				7E7BBAE324D00D8E00B91C8C /* tupian@2x.png in Resources */,
+				7E7BBAE424D00D8E00B91C8C /* tupian@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,11 +376,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7BBAC524D007E600B91C8C /* WKWebview+LoadHtml.swift in Sources */,
+				7E7BBACD24D007E600B91C8C /* UINib+Loader.swift in Sources */,
+				7E7BBADC24D0080100B91C8C /* CALayer+XMGXibBorderColor.m in Sources */,
+				7E7BBAC724D007E600B91C8C /* NSLayoutConstraint+Mutiper.swift in Sources */,
+				7E7BBAD224D007E600B91C8C /* UILable+DeleteLine.swift in Sources */,
+				7E7BBAA724D003C100B91C8C /* XMGBaseWebViewController.swift in Sources */,
+				7E7BBAC424D007E600B91C8C /* UIView+ViewController.swift in Sources */,
+				7E7BBADD24D0080100B91C8C /* Date+String.swift in Sources */,
+				7E7BBAD124D007E600B91C8C /* UIImageView+URL.swift in Sources */,
 				7EA7C29824CAC9E50006FFC2 /* UIView+Reddot.swift in Sources */,
+				7E7BBACC24D007E600B91C8C /* UIView+PlayView.swift in Sources */,
+				7E7BBACE24D007E600B91C8C /* NSObject+ClassName.swift in Sources */,
+				7E7BBAD724D007E600B91C8C /* UIScrollView+MJRefresh.swift in Sources */,
 				7EA7C29F24CACD380006FFC2 /* UIControl+FeedBack.m in Sources */,
+				7E7BBAD824D007E600B91C8C /* UIViewController+DdkAlert.swift in Sources */,
 				7EA7C28824CAC99C0006FFC2 /* ViewController.swift in Sources */,
 				7EA7C28424CAC99C0006FFC2 /* AppDelegate.swift in Sources */,
 				7EA7C28624CAC99C0006FFC2 /* SceneDelegate.swift in Sources */,
+				7E7BBACF24D007E600B91C8C /* TimeInterval+VideoDate.swift in Sources */,
+				7E7BBAD524D007E600B91C8C /* UIView+Frame.swift in Sources */,
+				7E7BBAC624D007E600B91C8C /* UIViewController+Subview.swift in Sources */,
+				7E7BBACA24D007E600B91C8C /* UICollectionView+Ext.swift in Sources */,
+				7E7BBAD624D007E600B91C8C /* UIColor+Theme.swift in Sources */,
+				7E7BBAD424D007E600B91C8C /* NSTimer+Closure.swift in Sources */,
+				7E7BBAA924D0040F00B91C8C /* XMGBaseViewController.swift in Sources */,
+				7E7BBAE024D00C5B00B91C8C /* CNMacroSwift.swift in Sources */,
+				7E7BBACB24D007E600B91C8C /* UITableView+EXT.swift in Sources */,
+				7E7BBAC924D007E600B91C8C /* UILable+Ext.swift in Sources */,
+				7E7BBAD024D007E600B91C8C /* String+Ext.swift in Sources */,
+				7E7BBAC824D007E600B91C8C /* UIButton+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AUQ5VQF9RM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/cnsunrun/Desktop/BaseUICommponet/BaseUICommponet/MainPreheader.h;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseUICommponet/MainPreheader.h";
 				INFOPLIST_FILE = BaseUICommponet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,7 +578,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AUQ5VQF9RM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/cnsunrun/Desktop/BaseUICommponet/BaseUICommponet/MainPreheader.h;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseUICommponet/MainPreheader.h";
 				INFOPLIST_FILE = BaseUICommponet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

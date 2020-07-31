@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addRedDot()
-        // Do any additional setup after loading the view.
+        XMGGetClassFromString(<#T##stringName: String##String#>)
     }
 
     @IBAction func action(_ sender: UIButton) {

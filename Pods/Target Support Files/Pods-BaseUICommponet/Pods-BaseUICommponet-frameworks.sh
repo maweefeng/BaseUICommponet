@@ -197,10 +197,22 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
