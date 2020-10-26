@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addRedDot()
-        XMGGetClassFromString(<#T##stringName: String##String#>)
     }
 
     @IBAction func action(_ sender: UIButton) {

@@ -11,12 +11,7 @@ let header = "<head><meta name=\"viewport\" content=\"width=device-width, initia
 
 extension WKWebView{
     
-    
-    
-
-    func cn_loadHtml(htmlStr:String){
-        
-
+    func xmg_loadHtml(htmlStr:String){
         self.loadHTMLString("<html>\(header)" + "<body>" + htmlStr + "</body></html>", baseURL: nil)
         
     }

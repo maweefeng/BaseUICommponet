@@ -12,7 +12,7 @@ import FaceAware
 import AVFoundation
 
 extension UIImageView {
-    func setImageUrl(_ url:String?, placeholderImage:UIImage? = UIImage(named: "tupian")){
+    func xmg_setImageUrl(_ url:String?, placeholderImage:UIImage? = UIImage(named: "tupian")){
         guard let urlString = url else {
             self.image = placeholderImage
             return
@@ -21,7 +21,7 @@ extension UIImageView {
             SDWebImageManager.shared.imageCache.containsImage(forKey: url, cacheType: .all) { (cacheType) in
                 if cacheType == .none{
                     //没有缓存
-                    self.setVideoUrl(url!)
+                    self.xmg_setVideoUrl(url!)
 
                 }else{
                     self.sd_setImage(with: URL(string: urlString), placeholderImage: placeholderImage)
@@ -36,7 +36,7 @@ extension UIImageView {
     }
     
     
-    func setVideoUrl(_ url:String,placeholderImage:UIImage? = UIImage(named: "tupian")){
+    func xmg_setVideoUrl(_ url:String,placeholderImage:UIImage? = UIImage(named: "tupian")){
         
         DispatchQueue.global().async {
             let asset = AVURLAsset.init(url: URL.init(string: url)!, options: nil)
@@ -48,7 +48,6 @@ extension UIImageView {
                 let image = try gen.copyCGImage(at: time, actualTime: &actualTime)
                 DispatchQueue.main.async {
                     self.image = UIImage.init(cgImage: image)
-                    
                 }
                 
                 SDWebImageManager.shared.imageCache.store(UIImage.init(cgImage: image), imageData: UIImage.init(cgImage: image).pngData(), forKey: url, cacheType: .all) {
@@ -70,7 +69,7 @@ extension UIImageView {
     
     
     //专为人脸打造
-    func setImageURLWithFaceFocus(_ url:String?) {
+    func xmg_setImageURLWithFaceFocus(_ url:String?) {
         guard let urlString = url else {
             self.image = UIImage(named: "tupian")
             self.focusOnFaces = true
@@ -85,7 +84,7 @@ extension UIImageView {
     
     
     //url中含中文
-    func sd_setImageWithChinese(urlStr:String,placeImg:UIImage?=UIImage(named: "tupian")){
+    func xmg_sd_setImageWithChinese(urlStr:String,placeImg:UIImage?=UIImage(named: "tupian")){
         let encodeStr =  urlStr.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         
         if let tUrl = URL(string: encodeStr ?? ""){
@@ -94,7 +93,7 @@ extension UIImageView {
                     SDWebImageManager.shared.imageCache.containsImage(forKey: encodeStr, cacheType: .all) { (cacheType) in
                         if cacheType == .none{
                             //没有缓存
-                            self.setVideoUrl(encodeStr!)
+                            self.xmg_setVideoUrl(encodeStr!)
                             
                         }else{
                             self.sd_setImage(with: tUrl, placeholderImage: tPlaceImg)
@@ -109,7 +108,7 @@ extension UIImageView {
                 }
             }else{
                 if encodeStr!.components(separatedBy: ".").last == "mp4"{
-                    self.setVideoUrl(encodeStr!)
+                    self.xmg_setVideoUrl(encodeStr!)
                 }else{
                     self.sd_setImage(with: tUrl)
                     

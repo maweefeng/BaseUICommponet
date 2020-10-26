@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController{
     //弹框:UIAlertController 提示信息
-    func showAlert(_ title:String,_ tip:String?="",_ sure:(()->())?){
+    func xmg_showAlert(_ title:String,_ tip:String?="",_ sure:(()->())?){
         let alertController = UIAlertController(title: title,
                                                 message: tip, preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)

@@ -10,7 +10,7 @@ import Foundation
 
 extension TimeInterval{
     
-    func getDurationString() -> String{
+    func xmg_getDurationString() -> String{
         
         if self.isNaN{
            return "00:00"

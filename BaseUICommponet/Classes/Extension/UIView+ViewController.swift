@@ -13,7 +13,7 @@ extension UIView {
     /// 获取view属于哪个VC
     ///
     /// - Returns: VC
-    func currentViewController () -> (UIViewController){
+    func xmg_currentViewController () -> (UIViewController){
         
         //1.通过响应者链关系，取得此视图的下一个响应者
         var next:UIResponder?

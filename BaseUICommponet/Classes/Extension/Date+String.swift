@@ -9,7 +9,7 @@
 import UIKit
 
 extension Date {
-    func dateToString(_ dateFormat:String = "yyyy-MM-dd HH:mm:ss") -> String {
+    func xmg_dateToString(_ dateFormat:String = "yyyy-MM-dd HH:mm:ss") -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = dateFormat
         formatter.locale = Locale(identifier: "zh_CN")
@@ -18,13 +18,13 @@ extension Date {
     }
     
     
-    func tommorrow()->Date{
+    func xmg_tommorrow()->Date{
         
         return Date.init(timeInterval: 24 * 60 * 60, since: self)
         
     }
     
-    func stringToDate(_ dateString:String, dateFormat:String = "yyyy-MM-dd HH:mm:ss") -> Date? {
+    func xmg_stringToDate(_ dateString:String, dateFormat:String = "yyyy-MM-dd HH:mm:ss") -> Date? {
         let formatter = DateFormatter()
                formatter.dateFormat = dateFormat
                formatter.locale = Locale(identifier: "zh_CN")
@@ -33,12 +33,8 @@ extension Date {
     }
     
    
-    
-    
-    func dealMsgtime() -> String{
-
+    func xmg_dealMsgtime() -> String{
         let delta = NSDate().timeIntervalSince(self)
-        
         if (delta <= 0) {
             return "刚刚"
         }

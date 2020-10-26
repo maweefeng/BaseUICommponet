@@ -12,19 +12,19 @@ import MJRefresh
 
 extension UIScrollView
 {
-    func headerRefresh(block: @escaping () -> ()) -> (){
+    func xmg_headerRefresh(block: @escaping () -> ()) -> (){
         self.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
             block()
         })
     }
     
-    func footerRefresh(block: @escaping () -> ()) -> (){
+    func xmg_footerRefresh(block: @escaping () -> ()) -> (){
         self.mj_footer = MJRefreshBackNormalFooter(refreshingBlock: {
             block()
         })
     }
     
-    func endRefresh(){
+    func xmg_endRefresh(){
         if self.mj_header != nil {
             self.mj_header?.endRefreshing()
         }

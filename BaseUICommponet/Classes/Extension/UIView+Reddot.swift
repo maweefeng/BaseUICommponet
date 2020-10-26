@@ -11,7 +11,7 @@ import SnapKit
 extension UIView{
     /// 添加红点
     /// - Parameter sideLength: 红点的边长
-    func addRedDot(sideLength:CGFloat = 5){
+    func xmg_addRedDot(sideLength:CGFloat = 5){
         self.clipsToBounds = false
         let redSpot = UIView()
         redSpot.tag = 120000
@@ -26,7 +26,7 @@ extension UIView{
     }
     
     ///移除消息红点
-    func removeDot(){
+    func xmg_removeDot(){
         if let redDot = self.viewWithTag(120000){
             redDot.removeFromSuperview()
         }
@@ -36,9 +36,9 @@ extension UIView{
     /// - Parameters:
     ///   - badgeNum: 角标数量，如果为0则不显示
     ///   - cornerRadius: 默认为7
-    func addBadgeView(badgeNum:Int,cornerRadius:CGFloat = 7){
+    func xmg_addBadgeView(badgeNum:Int,cornerRadius:CGFloat = 7){
         if badgeNum == 0 {
-            removeBadgeView()
+            xmg_removeBadgeView()
             return
         }
         self.clipsToBounds = false
@@ -63,7 +63,7 @@ extension UIView{
         
     }
     
-    func removeBadgeView(){
+    func xmg_removeBadgeView(){
         if let redDot = self.viewWithTag(120001){
             redDot.removeFromSuperview()
         }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E76DEF724F76E92003FE63A /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E76DEF624F76E92003FE63A /* Data+.swift */; };
+		7E78ED1324E4E64D001ABDDB /* Array+slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78ED1224E4E64D001ABDDB /* Array+slice.swift */; };
+		7E7A14A124DA5D1B00026745 /* UIView+shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A14A024DA5D1B00026745 /* UIView+shake.swift */; };
 		7E7BBAA724D003C100B91C8C /* XMGBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAA624D003C100B91C8C /* XMGBaseWebViewController.swift */; };
 		7E7BBAA924D0040F00B91C8C /* XMGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAA824D0040F00B91C8C /* XMGBaseViewController.swift */; };
 		7E7BBAC424D007E600B91C8C /* UIView+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BBAAF24D007E400B91C8C /* UIView+ViewController.swift */; };
@@ -48,6 +51,9 @@
 /* Begin PBXFileReference section */
 		3B3560A48F79BA680A59B707 /* Pods-BaseUICommponet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUICommponet.debug.xcconfig"; path = "Target Support Files/Pods-BaseUICommponet/Pods-BaseUICommponet.debug.xcconfig"; sourceTree = "<group>"; };
 		7702DACFFDC2760BB26CAD9F /* Pods_BaseUICommponet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUICommponet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E76DEF624F76E92003FE63A /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		7E78ED1224E4E64D001ABDDB /* Array+slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+slice.swift"; sourceTree = "<group>"; };
+		7E7A14A024DA5D1B00026745 /* UIView+shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+shake.swift"; sourceTree = "<group>"; };
 		7E7BBAA624D003C100B91C8C /* XMGBaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMGBaseWebViewController.swift; sourceTree = "<group>"; };
 		7E7BBAA824D0040F00B91C8C /* XMGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMGBaseViewController.swift; sourceTree = "<group>"; };
 		7E7BBAAF24D007E400B91C8C /* UIView+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ViewController.swift"; sourceTree = "<group>"; };
@@ -162,6 +168,9 @@
 				7E7BBAB124D007E500B91C8C /* UIViewController+Subview.swift */,
 				7E7BBAB024D007E400B91C8C /* WKWebview+LoadHtml.swift */,
 				7EA7C29724CAC9E50006FFC2 /* UIView+Reddot.swift */,
+				7E7A14A024DA5D1B00026745 /* UIView+shake.swift */,
+				7E78ED1224E4E64D001ABDDB /* Array+slice.swift */,
+				7E76DEF624F76E92003FE63A /* Data+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -382,8 +391,10 @@
 				7E7BBAC724D007E600B91C8C /* NSLayoutConstraint+Mutiper.swift in Sources */,
 				7E7BBAD224D007E600B91C8C /* UILable+DeleteLine.swift in Sources */,
 				7E7BBAA724D003C100B91C8C /* XMGBaseWebViewController.swift in Sources */,
+				7E78ED1324E4E64D001ABDDB /* Array+slice.swift in Sources */,
 				7E7BBAC424D007E600B91C8C /* UIView+ViewController.swift in Sources */,
 				7E7BBADD24D0080100B91C8C /* Date+String.swift in Sources */,
+				7E76DEF724F76E92003FE63A /* Data+.swift in Sources */,
 				7E7BBAD124D007E600B91C8C /* UIImageView+URL.swift in Sources */,
 				7EA7C29824CAC9E50006FFC2 /* UIView+Reddot.swift in Sources */,
 				7E7BBACC24D007E600B91C8C /* UIView+PlayView.swift in Sources */,
@@ -392,6 +403,7 @@
 				7EA7C29F24CACD380006FFC2 /* UIControl+FeedBack.m in Sources */,
 				7E7BBAD824D007E600B91C8C /* UIViewController+DdkAlert.swift in Sources */,
 				7EA7C28824CAC99C0006FFC2 /* ViewController.swift in Sources */,
+				7E7A14A124DA5D1B00026745 /* UIView+shake.swift in Sources */,
 				7EA7C28424CAC99C0006FFC2 /* AppDelegate.swift in Sources */,
 				7EA7C28624CAC99C0006FFC2 /* SceneDelegate.swift in Sources */,
 				7E7BBACF24D007E600B91C8C /* TimeInterval+VideoDate.swift in Sources */,
