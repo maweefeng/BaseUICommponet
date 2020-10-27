@@ -159,7 +159,7 @@
 		7EA7C27724CAC99C0006FFC2 = {
 			isa = PBXGroup;
 			children = (
-				7EA7C28224CAC99C0006FFC2 /* BaseUICommponet */,
+				7EA7C28224CAC99C0006FFC2 /* XMGBaseUICommonet */,
 				7EA7C28124CAC99C0006FFC2 /* Products */,
 				CE261ADA63BB0EC873A4D8DF /* Pods */,
 				58B821AFB3BB2FB6A8AEF4F8 /* Frameworks */,
@@ -174,7 +174,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7EA7C28224CAC99C0006FFC2 /* BaseUICommponet */ = {
+		7EA7C28224CAC99C0006FFC2 /* XMGBaseUICommonet */ = {
 			isa = PBXGroup;
 			children = (
 				7EA7C2A124CAD9F90006FFC2 /* Classes */,
@@ -190,7 +190,7 @@
 				7EA7C29924CACD040006FFC2 /* BaseUICommponet-Bridging-Header.h */,
 				7EA7C2A024CAD0C20006FFC2 /* MainPreheader.h */,
 			);
-			path = BaseUICommponet;
+			path = XMGBaseUICommonet;
 			sourceTree = "<group>";
 		};
 		7EA7C2A124CAD9F90006FFC2 /* Classes */ = {
