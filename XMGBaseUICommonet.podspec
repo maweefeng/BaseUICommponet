@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # *.{h,m}匹配所有.h和.m结尾的文件
   # s.source_files  ="BaseUICommponet/*.{h,m}"
   # **表示匹配所有子目录
-  # s.source_files  ="BaseUICommponet/**/*.h"
+  s.source_files  ="BaseUICommponet/**/*"
   spec.source_files  = "BaseUICommponet/Classes"
   spec.exclude_files = "BaseUICommponet/Classes/Exclude"
 
