@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   # s.source_files  ="BaseUICommponet/*.{h,m}"
   # **表示匹配所有子目录
   # s.source_files  ="BaseUICommponet/**/*"
-  spec.source_files  = "BaseUICommponet/Classes/**/*"
+  spec.source_files  = "BaseUICommponet/Classes/*"
   spec.exclude_files = "BaseUICommponet/Classes/Exclude"
 
   # spec.resource  = "icon.png"
